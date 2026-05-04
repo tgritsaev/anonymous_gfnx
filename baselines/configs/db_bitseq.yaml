@@ -49,7 +49,7 @@ writer:
   writer_type: wandb # wandb, trackio or null (no logging online)
   save_locally: false # Save metrics locally or not
   entity: gfn-sampling
-  project: mctx
+  project: project_name
 
 # Technical information for hydra
 hydra:

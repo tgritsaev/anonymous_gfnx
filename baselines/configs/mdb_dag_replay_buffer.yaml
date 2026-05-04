@@ -64,7 +64,7 @@ writer:
   writer_type: null # wandb, trackio or null (no logging online)
   save_locally: true  # Save metrics locally or not
   entity: null
-  project: dag-sampling
+  project: project_name
 
 # Technical information for hydra
 hydra:

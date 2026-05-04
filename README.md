@@ -17,18 +17,6 @@ This repository is gone through anonymisation to be submitted. This results in i
 - Python 3.10 or newer.
 - A working JAX installation. CPU works out of the box; for GPU/TPU accelerators follow the [official JAX installation guide](https://jax.readthedocs.io/en/latest/installation.html).
 
-### Install the latest release
-
-```
-pip install gfnx
-```
-
-Verify the install with:
-
-```
-python -c "import gfnx; print('gfnx import OK')"
-```
-
 ### Develop locally and run baselines
 
 Download the project and setup:

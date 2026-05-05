@@ -5,11 +5,9 @@ A collection of environments centered around generating sequences of various nat
 # Bit Sequence environment
 
 This task is to generate binary sequences of a fixed length $n$, using a vocabulary of $k$-bit blocks.  The state space of this environment corresponds to sequences of $n/k$ words, and each word in these sequences is either an empty word $\oslash$ or one of $2^k$ possible $k$-bit words. The initial state $s_0$ corresponds to a sequence of empty words. The possible actions in each state are replacing an empty word $\oslash$ with one of $2^k$ non-empty words in the vocabulary. The set of terminal states consists of sequences without empty words and corresponds to binary strings of length $n$. The reward function is defined as 
-$$
-R(x) = \exp\left(
+$R(x) = \exp\left(
   -\beta \cdot \frac{\min_{x' \in M} d(x, x')}{n}
-\right),
-$$
+\right),$
 where $M$ is a set of modes, $d$ is Hamming distance and $\beta$ is the reward exponent (inverse temperature).
 
 ## Intuition

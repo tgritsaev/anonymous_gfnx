@@ -17,8 +17,8 @@
 
 ### Develop locally and run baselines
 
+Ensure to download the directory and setup:
 ```
-git clone ANONYMOUS
 cd gfnx
 pip install -e .[baselines]
 ```
